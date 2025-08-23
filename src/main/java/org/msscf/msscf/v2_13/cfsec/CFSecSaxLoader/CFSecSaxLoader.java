@@ -130,7 +130,6 @@ public class CFSecSaxLoader
 	public CFSecSaxLoader( ICFLibMessageLog logger ) {
 		super( logger );
 		setRootElementHandler( getSaxRootHandler() );
-		}
 		initParser();
 	}
 
